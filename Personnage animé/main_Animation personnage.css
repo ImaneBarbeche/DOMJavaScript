@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+
+#gameContainer {
+  width: 600px;
+  height: 400px;
+  background-color: #cfe2f3;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #444;
+  margin: 40px auto;
+}
+
+#player {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#bowl {
+  width: 32px;
+  height: 32px;
+  background-image: url("sprites/bowl.png");
+  background-size: cover;
+  position: absolute;
+}
+
+#winMessage {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #76a89d;
+  font-weight: bold;
+}
